@@ -115,33 +115,36 @@ header nav {
    display:flex;
    flex-wrap: wrap;
    justify-content: space-between;
-    align-items:center;
-    align-content: space-around;
+   align-items:center;
    border-bottom: 1px dashed black;
    padding : 2%;
+   padding-left:0rem;
+    margin-left: 0;
   }
 
   .container2 {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:space-between;
-    align-content: space-around;
+    align-items:center; 
     border-bottom: 1px dashed black;
-    padding : 1%;
+    padding :2%;
+    padding-left:0rem;
+    margin-left: 0;
    }
  
 .container1 div{
   width: 40%;
   padding:2% 2%;
-  margin-left: 1rem;
+  padding-left:0rem;
+  margin-left: 0;
   
 } 
 .container2 div{
   width: 40%;
-  padding:0% 1%;
-  margin-left: 1rem;
-  
+  padding:2% 2%;
+  padding-left:0rem;
+  margin-left: 0;
 }
 
 h2{
