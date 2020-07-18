@@ -116,21 +116,23 @@ header nav {
     display:flex;
     flex-flow: wrap;
     justify-content:space-evenly;
-    align-items:flex-start;
+   /* align-items:flex-start;*/
     margin-left: 0rem;
    }
  
   .fullcontainer div{
-    width: 45%;
+    margin: 0 auto;
+    width: 46%;
     padding-left:0%;
-    padding-right:2rem;
+    padding-right:1rem;
     padding-top:4%;
-    margin-left: 0rem;
     border-bottom: 1px dashed black;
   }
  .fullcontainer img{
   width: 100%;
-  margin-left: 0rem;
+  height:54%;
+  padding-left:0rem;
+  padding-right: 1rem;
   }
   
   .fullcontainer button{
