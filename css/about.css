@@ -149,6 +149,35 @@ header nav {
 
 h2{
   padding-top:0.5rem;
+  font-weight: 600;
+  /* My animation */
+  animation-name:myanim;
+  animation-duration:3s;
+  animation-timing-function:ease-in-out;
+  animation-delay:2s; /*wait before start of animation */
+  animation-iteration-count:infinite; /* name,duration, timing function,delay,count */
+}
+/* keyframes rule to specify animation code */
+@keyframes myanim{
+  0%{
+  color:  grey;
+  transform: skewY(1deg);}
+  40%{ 
+  color: darkslategrey;
+  transform: skewY(1deg);}  
+  70%,75%{
+   color: crimson; 
+   transform: skewY(2deg);
+  }
+   80%,90%,95%{
+    color: coral;
+    transform: skewY(1deg);
+  }
+  100%{
+    color:black;
+    transform: skewY(0deg);
+  }
+}
 }
 .theend{
   display:flex;
