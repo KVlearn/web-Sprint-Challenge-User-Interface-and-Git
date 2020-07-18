@@ -70,23 +70,51 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.logimg{
+    object-fit: fill;
+    padding-bottom:2rem;
+  }
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; /*center*/
+    /*padding: 2rem 2%; */
+    padding:1rem 1rem;
+    font-size:1.1rem;
+   /* margin-left: 0rem;*/
+  }
+  
+  header nav a {
+    color: black;
+    text-decoration: none;
+    padding:8%;
+    padding-bottom:2%;
+    
+  }
 
-.top-content {
+  #topimg{
+      margin-bottom: 2%;
+  }
+  .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
     border-bottom: 1px dashed black;
 }
 
+h2{
+    font-weight: 600;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 2rem;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     border-bottom: 1px dashed black;
 }
 
@@ -103,9 +131,10 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+   /* height: 100px;*/
+    height:6rem;
     background: black;
-    margin: 20px 2.5%;
+    margin: 2rem 2.5%;
     color: white;
     display: flex;
     align-items: center;
@@ -114,7 +143,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 2rem;
     justify-content: space-around;
 }
 
@@ -125,6 +154,42 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.boxes #box1{
+    background-color: teal;
+  }
+  .boxes #box2{
+    background-color: gold;
+  }
+  .boxes #box3{
+    background-color: cadetblue;
+  }
+  .boxes #box4{
+    background-color: coral;
+  }
+  .boxes #box5{
+    background-color: crimson;
+  }
+  .boxes #box6{
+    background-color: forestgreen;
+  }
+  .boxes #box7{
+    background-color: darkorchid;
+  }
+  .boxes #box8{
+    background-color: hotpink;
+  }
+  .boxes #box9{
+    background-color: indigo;
+  }
+  .boxes #box10{
+    background-color: dodgerblue;
+  }
+
+ .aboutimg{
+     width:100%;
+     height:25rem;
+ } 
 
 footer {
     width: 100%;
@@ -144,3 +209,328 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* for mobile */
+@media only screen and (max-width: 500px) {
+    .container{
+      width: 100%;
+      margin: 0;
+  }
+    
+  header nav {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+    /*padding: 2rem 2%; */
+     font-size: 1.8rem;
+     line-height: 2rem;
+     }
+    
+    header nav a {
+      color: black;
+      text-decoration: none;
+      padding:0.3rem;
+    }
+  
+    #home{
+      padding-top:2rem;
+    }
+    .logoimg{
+      max-width:100%;
+      height:auto;
+      object-fit: cover;
+      padding-top: 1.5rem;
+     } 
+    
+    .road{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      }
+      
+      #topimg{
+        max-width:100%;
+        height:40%;
+        padding-top: 1rem;
+        object-fit:fill;
+        margin-bottom: 1rem;
+        }
+  
+  .top-content {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px dashed black;
+  }
+  
+  .top-content .text-container {
+      width: 80%;
+      padding: 0 1%;
+      padding-bottom: 2rem; 
+      font-size: 1.4rem;
+      line-height: 2rem; 
+  }
+  
+  .middle-content {
+    width:100%;
+      margin-bottom: 20px;
+      border-bottom: 1px dashed black;
+  }
+  .middle-content h2 {
+      padding:0 2%;
+      margin-bottom: 0;
+      font-size: 2rem;
+      line-height: 2rem; 
+      text-align: center;
+  }
+  
+  .text-container h2{
+      padding-top:0.5rem;
+      padding-bottom:0.5rem;
+      margin:0 auto;
+      margin-left: 0%;
+      font-size: 2rem;
+      line-height: 2rem; 
+      }
+  
+  .middle-content .boxes {
+      max-width:100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .middle-content .boxes .box {
+      width: 45%;
+      height: 12rem;
+      background: black;
+      margin: 2rem 0.5%;
+      color: white;
+      display: flex;
+      /*flex-direction: column;*/
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+  }
+  
+  
+  .bottom-content {
+   max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bottom-content .text-container {
+    padding: 0 1%;
+    padding-bottom: 1.5rem; 
+    font-size: 1.2rem;
+    line-height: 2rem;
+    
+  }
+  
+  .aboutimage{
+    object-fit:fill;
+    width:100%;
+    height:25x  rem;
+  }
+  footer {
+      width: 100%;
+      background: black;
+  }
+  
+  footer nav {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+      line-height: 2rem;
+      font-size: 1.8rem;
+  }
+  
+  footer nav a {
+      color: white;
+      text-decoration: none;
+      padding:0.3rem;
+  }
+  }
+  
+  /************** FOR 800 PX TAB*******************************--- */
+   
+  @media only screen and (min-width:510px) and (max-width:810px) { 
+  .container{
+      width: 100%;
+      margin:0;
+      color:slategrey /*for me to check the working breakpoint */
+    }  
+  header nav {
+     width: 100%;
+     display: flex;
+    justify-content:space-evenly;
+     align-items:baseline;
+    /*padding: 2rem 2%; */
+     font-size: 1.2rem;
+    /* line-height: rem;*/
+     }
+    
+    header nav a {
+     /* color: black;*/ 
+     text-decoration: none;
+      padding:0.3rem;
+    }
+  
+    #home{
+      padding-top:2rem;
+    }
+    .logoimg{
+      width:20%;
+      height:auto;
+      object-fit: cover;
+      padding-top:1rem;
+     } 
+    
+    .road{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      }
+      
+      #topimg{
+        max-width:95%;
+        height:10%;
+        padding-top: 1rem;
+        object-fit:fill;
+        margin-bottom: 0.5rem;
+        }
+  
+    .top-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px dashed black;
+  }
+  
+  .top-content .text-container {
+      width: 95%;
+      padding: 0 1%;
+      padding-bottom: 1rem; 
+      font-size: 0.8rem;
+      line-height: 0.5rem; 
+  }
+  
+  .middle-content {
+    width:95%;
+      margin-bottom: 20px;
+      border-bottom: 1px dashed black;
+  }
+  .middle-content h2 {
+      padding:2 2%;
+      margin-bottom: 0;
+      font-size: 1.3rem;
+      line-height: 1.5rem; 
+     /* text-align: center;*/
+  }
+  
+  .text-container h2{
+      padding-top:1rem;
+      padding-bottom:1rem;
+      margin:0 auto;
+      margin-left: 0%;
+      font-size: 1.4rem;
+      line-height: 1rem; 
+      }
+  
+  .middle-content .boxes {
+      max-width:100%;
+      display: flex;
+      flex-direction: column;
+      flex-flow: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  
+  .middle-content .boxes .box {
+      width: 40%;
+      height: 12rem;
+      background: black;
+      margin: 2rem 0.5%;
+      color: white;
+     /* display: flex;
+      /*flex-direction: column;*/
+     /* flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; */
+      font-size: 1.3rem;
+  }
+  
+  
+  .bottom-content {
+   max-width: 100%;
+   height:auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   /* align-items: center;
+  /*justify-content: center;*/
+  }
+  
+  .bottom-content .text-container {
+   width:50%;
+    padding: 0 1%;
+    padding-bottom: 1.5rem; 
+    font-size: 0.8rem;
+    line-height: 1rem;
+    
+  }
+  
+  .aboutimage{
+    object-fit:fill;
+    width:100%;
+    height:25x  rem;
+  }
+  footer {
+      width: 100%;
+      background: black;
+  }
+  
+  footer nav {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+      line-height: 1rem;
+      font-size: 1.2rem;
+  }
+  
+  footer nav a {
+      color: white;
+      text-decoration: none;
+      padding:1rem;
+  }
+  

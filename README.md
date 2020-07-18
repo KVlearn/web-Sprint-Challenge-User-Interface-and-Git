@@ -34,13 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+It’s the way of using the HTML to state the meaning of information presented in the webpages. 
+This semantic HTML is processed and used by web browsers. Like how CSS makes it presentable to human users, Semantic HTML aids web browsers.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Inline - Doesnt start on a new line- (a , img , span)
+        Occupy just the width it requires (height/width setting doesnt apply ! cant give them...)
+Inline Block -  same as inline, but can use block property - but u can set the height/width (the block property is Force Starts on a new line)
+Occupy the full width available horizontally (div, li, p , h1) Grabs all the available size and Always stack on top of the other !
+
 
 3. What are the 4 areas of the box model?
 
+ Content in the center that will determine the size of the box when nothing is specified. 
+ Then comes the Padding - its more like inside the background of the element AROUND the content
+ Next is Border goes around the padding. 
+ Last thing around the element is the Margin - this determines the space two elements are apart from each other.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+This defines the default behavior for how flex items are laid out along the cross axis on the current line. 
+I remember it as opposite of justify-content version for the cross-axis  
+So align items center will make the items centered in the cross-axis
 
 5. Explain why git is valuable to a team of developers.
+
+Developers need Version control stystem ! One of the biggest advantages of Git is its branching capabilities. Unlike centralized version control systems which I have been using in my curren backend legacy industry, Git can branch publicly and easy to merge/ look for conflict and resolve. This facilitates the feature branch workflow popular with many Git users. Feature branches provide an isolated environment for every change to your codebase.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
