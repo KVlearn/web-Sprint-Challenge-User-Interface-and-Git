@@ -41,8 +41,8 @@ This semantic HTML is processed and used by web browsers. Like how CSS makes it 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 Inline - Doesnt start on a new line- (a , img , span)
-        Occupy just the width it requires (height/width setting doesnt apply ! cant give them...)
-Inline Block -  same as inline, but can use block property - but u can set the height/width (the block property is Force Starts on a new line)
+        Occupy just the width it requires .
+Inline Block -  same as inline, but can use block property - but u can set the height/width . Display block property is Force Starts on a new line.
 Occupy the full width available horizontally (div, li, p , h1) Grabs all the available size and Always stack on top of the other !
 
 
@@ -60,7 +60,7 @@ So align items center will make the items centered in the cross-axis
 
 5. Explain why git is valuable to a team of developers.
 
-Developers need Version control stystem ! One of the biggest advantages of Git is its branching capabilities. Unlike centralized version control systems which I have been using in my curren backend legacy industry, Git can branch publicly and easy to merge/ look for conflict and resolve. This facilitates the feature branch workflow popular with many Git users. Feature branches provide an isolated environment for every change to your codebase.
+Developers need Version control stystem ! One of the biggest advantages of Git is its branching capabilities. Unlike centralized version control systems which I have been using in my current backend legacy industry, Git can branch publicly and easy to merge/ look for conflict and resolve. This facilitates the feature branch workflow popular with many Git users. Feature branches provide an isolated environment for every change to your codebase.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

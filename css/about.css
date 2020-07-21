@@ -78,11 +78,10 @@ header nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline; /*center*/
+    align-items: baseline; 
     /*padding: 2rem 2%; */
     padding:1rem 1rem;
     font-size:1rem;
-   /* margin-left: 0rem;*/
   }
   
   header nav a {
